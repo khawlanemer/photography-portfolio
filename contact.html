@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Lens & Light Photography</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lens & Light Photography</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>Initiate Your Session Booking</h2>
+      <p>
+        Get in touch using our system form below to reserve an appointment or
+        ask questions about custom productions.
+      </p>
+
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Full Client Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail Address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="client@example.com"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="service">Select Target Tier:</label>
+          <select id="service" name="service">
+            <option value="silver">Personal Shoot Session (Silver Plan)</option>
+            <option value="gold">Corporate Event Coverage (Gold Plan)</option>
+            <option value="vip">
+              Cinematic Commercial Production (Platinum VIP Plan)
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Detailed Project Specifications:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Outline specific delivery requests or schedule parameters here..."
+            required
+          ></textarea>
+        </div>
+
+        <div style="text-align: center; margin-top: 25px">
+          <button type="submit">Submit Request</button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <p>All Rights Reserved &copy; 2026 | Developed by Khawla Al-Nemer</p>
+    </footer>
+  </body>
+</html>
